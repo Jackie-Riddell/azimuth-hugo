@@ -463,8 +463,8 @@ models:
           - white
         default: gray
       - type: list
-        name: features
-        label: Features
+        name: Apply Today
+        label: Apply Today
         items:
           type: model
           models:

@@ -1,27 +1,27 @@
 .block-title {
-  font-size: 2em;
+  font-size: 20em;
 
   @media only screen and (min-width: 601px) {
     font-size: 2.44444em;
   }
-}
+}z
 
 .block-header {
   text-align: center;
-
+// "why work with techbytes?" 
   .block-title {
-    font-size: 1.66667em;
-    margin: 0 0 0.25em;
-
+    font-size: 3.2667em;
+    margin: 20 10 10.25em;
+// spacing between the "recent job postings" and "the three bottom pictures"
     &:last-child {
-      margin-bottom: 1em;
+      margin-bottom: 1.25em;
     }
   }
-
+// spacing between "testimonials" and "the three quotes"
   .block-subtitle {
     color: $gray-500;
-    line-height: 1.5;
-
+    line-height: 1.0;
+// between testimonial subtitle and the three quotes"
     &:last-child {
       margin-bottom: 1.66667em;
     }
@@ -29,7 +29,7 @@
 }
 
 .block-preview {
-  margin-bottom: 1.66667em;
+  margin-bottom: 0.166667em;
 }
 
 .block-buttons {
@@ -565,12 +565,12 @@
       box-shadow: $box-shadow-white-bg;
     }
   }
-
+// main page banner, "first paragraph + image + learn more button"
   &.bg-accent {
     background: $color-primary;
     background: -webkit-gradient(linear, left top, right top, from($color-primary), to($color-secondary));
     background: linear-gradient(to right,$color-primary, $color-secondary);
-    color: #fff;
+    color: rgb(8, 8, 8);
 
     a {
       &:not(.button) {
@@ -603,15 +603,15 @@
     .underline:after {
       border-color: currentColor;
     }
-
+// learnmore and apply now buttons, border, color, and text
     .button {
-      background: #fff;
-      border-color: #fff;
-      color: $color-primary;
+      background: rgb(94, 120, 238);
+      border-color: rgb(56, 89, 236);
+      color: #fff;
   
       &.secondary {
         background: transparent;
-        color: #fff;
+        color: rgb(17, 17, 17);
       }
     }
   }

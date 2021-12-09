@@ -1,7 +1,7 @@
 ---
-title: Pricing
+title: Job Postings
 sections:
-  - section_id: pricing
+  - section_id: pHU
     type: section_pricing
     background: gray
     title: Pricing Plans
