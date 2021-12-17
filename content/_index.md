@@ -1,33 +1,34 @@
 ---
+
 title: Home
 sections:
   - section_id: hero
     type: section_hero
-    image: images/hero.png
+    image: images/frontbanner.png
     image_alt: App preview
-    title: This Is A Big Hero Headline
+    title: Empowering the Next Generation of Leaders and Innovators
     content: >-
-      Azimuth is the perfect theme for developers, designers and entrepreneurs
-      who need a sleek, modern SaaS site.
+     Gain real-world experience, grow your network in the industry, and get paid to do it – all before you graduate.We support meaningful work experiences before you graduate while also giving businesses an affordable way to scale up their tech talent. 
     actions:
       - label: Learn More
         url: /features
         style: primary
+  - section_id: recent-posts
+    type: section_posts
+    background: gray
+    title: Recent Job Postings   
   - section_id: features
     type: section_features
     background: gray
-    title: Features
+    title: We want to help you get ready for the workforce before you graduate. 
     subtitle: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus.
+      Whether you’re looking for work that makes a difference — for you and others — or you’re an employer looking for people who deliver, when you work with Techbytes you’ll understand why we say “our people are everything.”
     features:
-      - title: The Best Feature of Your Services
-        image: images/feature1.png
+      - title: Oppurtinuites for Students/Recent Graduates
+        image: images/image1.png
         image_alt: App preview on a phone and tablet
         content: >-
-          Nam pulvinar ante eu ultricies volutpat. Aenean hendrerit, eros sed
-          aliquet luctus, lorem risus volutpat dolor, nec dignissim diam neque
-          consequat ex.
+          You require a partner that understands your challenges and delivers solutions customized to your needs. Powered by our national presence, unparalleled recruiting bandwidth and deep expertise placing light industrial, skilled trades and construction talent, we can reliably meet needs for highly skilled workers or high-volume engagements through our contract staffing and workforce management solutions.
         actions:
           - label: Learn More
             url: /features
@@ -35,13 +36,11 @@ sections:
             has_icon: true
             icon: arrow-right
             icon_position: right
-      - title: Awesome Feature of Your Services
-        image: images/feature2.png
+      - title: Learn Valuable Technical Skills 
+        image: images/image2.png
         image_alt: App users welcoming a new member
         content: >-
-          Etiam vel urna sed massa egestas vulputate eu a velit. Sed ut nisl nec
-          sapien interdum luctus. Cras rhoncus condimentum metus sit amet
-          auctor.
+          Keep your projects on time and on budget. Discover how our Managed Resources offering can help reduce resource constraints while optimizing productivity and increasing visibility.  
         actions:
           - label: Learn More
             url: /features
@@ -49,13 +48,11 @@ sections:
             has_icon: true
             icon: arrow-right
             icon_position: right
-      - title: Cool Feature of Your Services
-        image: images/feature3.png
+      - title: Access to Support network and Endless Opportunities 
+        image: images/image3.png
         image_alt: App user profile preview
         content: >-
-          In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
-          quis venenatis sem. Proin eget massa id metus eleifend maximus sit
-          amet nec urna.
+          Working for Techbytes gives you access to comprehensive health benefits and a variety of work-life benefits. Our benefits include contributory medical, dental and vision insurance. Specific assignments may include paid time off, and all Aerotek contract employees can enjoy an array of employee discounts from our many retail partners.
         actions:
           - label: Learn More
             url: /features
@@ -63,45 +60,38 @@ sections:
             has_icon: true
             icon: arrow-right
             icon_position: right
+ 
   - section_id: reviews
     type: section_reviews
     background: white
-    title: Testimonials
+    title: Connecting Students to Employers 
     subtitle: >-
-      Aliquam malesuada ligula eget est fringilla blandit. Integer finibus
-      semper libero id sodales.
+      Hear what our  client's had to say about their expereince 
     reviews:
       - author: Eric Widget
         avatar: images/review1.jpg
         avatar_alt: Eric Widget's photo
         content: >-
-          Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
-          nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
+          During my time with Techbytes, I found that each time they sent me to a different assignment, it was interesting. It was different than the one before, I picked up a new skill at each place and I learned a different a type of technology.
       - author: Parsley Montana
         avatar: images/review2.jpg
         avatar_alt: Parsley Montana's photo
         content: >-
-          Sed laoreet magna commodo libero euismod sodales. Nunc ac libero
-          convallis, interdum ligula vel, pretium diam. Integer commodo sem at
-          dui sollicitudin, vel posuere justo laoreet.
+         During my time with Techbytes, I found that each time they sent me to a different assignment, it was interesting. It was different than the one before, I picked up a new skill at each place and I learned a different a type of technology.
       - author: Jonquil Von Haggerston
         avatar: images/review3.jpg
         avatar_alt: Jonquil Von Haggerston's photo
         content: >-
-          Integer consectetur purus neque, ac porttitor enim convallis vitae.
-          Interdum et malesuada fames ac ante ipsum primis in faucibus.
+          During my time with Techbytes, I found that each time they sent me to a different assignment, it was interesting. It was different than the one before, I picked up a new skill at each place and I learned a different a type of technology.
   - section_id: call-to-action
     type: section_cta
-    title: This Is Call To Action Block!
-    subtitle: This is an optional description for the call to action block.
+    title: Join. Work. Succeed 
+    subtitle: Finding the right job takes more than searching for job openings. It takes a partner that understands your skills while connecting you to quality opportunities aligned to your goals. Working with an Aerotek recruiter means having someone in your corner to help you achieve success in the short and long term.
     actions:
-      - label: Get Started
+      - label: Apply Now
         url: /signup
         style: primary
-  - section_id: recent-posts
-    type: section_posts
-    background: gray
-    title: Latest Posts
+ 
 seo:
   title: Stackbit Azimuth Theme
   description: The preview of the Azimuth theme
@@ -116,7 +106,7 @@ seo:
       value: The preview of the Azimuth theme
       keyName: property
     - name: 'og:image'
-      value: images/hero.png
+      value: images/frontbanner.png
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -126,7 +116,7 @@ seo:
     - name: 'twitter:description'
       value: The preview of the Azimuth theme
     - name: 'twitter:image'
-      value: images/hero.png
+      value: images/frontbanner.png
       relativeUrl: true
 layout: landing
 ---

@@ -1,6 +1,7 @@
+// this changed the header banner size, haedr text colour
 .site-header {
-  background: #fff;
-  color: $gray-700;
+  background: rgb(8, 8, 8);
+  color: rgb(8, 8, 8);
   padding-bottom: 1em;
   padding-top: 1em;
 
@@ -22,14 +23,14 @@
 }
 
 .site-title {
-  color: $gray-700;
-  font-size: 1.33333em;
+  color: rgb(20, 20, 20);
+  font-size: 0.33333em;
   font-weight: bold;
   line-height: 1.2;
   margin: 0;
 
   .font-fira-sans & {
-    font-weight: 600;
+    font-weight: 60;
   }
 }
 
@@ -40,10 +41,10 @@
     max-height: 40px;
   }
 }
-
+// button size , top header "sign up"
 .site-navigation {
   .button {
-    font-size: 1em;
+    font-size: 0.9em;
   }
 }
 
@@ -56,14 +57,14 @@
 
   .site-navigation {
     .current-menu-item {
-      color: $gray-500;
+      color: rgb(255, 219, 58);
     }
 
     a:not(.button) {
       color: inherit;
   
       &:hover {
-        color: $gray-500;
+        color: rgb(34, 155, 236);
       }
     }
   }
@@ -76,24 +77,24 @@
 
   .site-navigation {
     margin-left: auto;
-
+// this changes the spacing between "home, features, pricing, style guide, sign up button"
     .menu-item {
       display: inline-block;
-      margin: 0 0 0 1.875em;
+      margin: 0 0 0 4.875em;
     }
-
+// dimensons of the "sign up" button, top header
     .button {
-      padding: 0.25em 0.9375em;
+      padding: 0.2em 1.4375em;
     }
 
     .menu-button + .menu-button {
-      margin-left: 0.9375em;
+      margin-left: 1.9375em;
     }
   }
-
+// colour of the top banner/header 
   @supports (position: sticky) or (position: -webkit-sticky) {
     .site-header {
-      background: #fff;
+      background: rgba(243, 246, 250, 0.897);
       position: -webkit-sticky;
       position: sticky;
       top:0;
@@ -136,7 +137,7 @@
     color: inherit;
     display: block;
     cursor: pointer;
-    font-size: inherit;
+    font-size: 10em;
     height: 1.66667rem;
     padding: 0;
     position: relative;
@@ -160,7 +161,7 @@
   }
 
   .site-navigation {
-    background: #fff;
+    background: rgba(236, 241, 245, 0.904);
     box-sizing: border-box;
     height: 100vh;
     -webkit-overflow-scrolling: touch;
@@ -174,7 +175,7 @@
     z-index: 999;
 
     .menu {
-      padding: 3.66667em $container-padding 2.5em;
+      padding: 1.66667em $container-padding 2.5em;
     }
 
     .menu-item {

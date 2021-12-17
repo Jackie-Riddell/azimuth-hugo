@@ -1,0 +1,23 @@
+
+.banner {
+    overflow: hidden;
+  }
+  
+  .banner p {
+    font-size: 200px;
+    opacity: 0;
+  }
+  
+  .banner .nav-link.text-dark {
+    color: var(--black-color) !important;
+  }
+  
+  .banner .nav-link.text-dark:hover {
+    color: var(--black-color) !important;
+  }
+  
+  .banner .navbar-brand {
+    color: var(--black-color) !important;
+  }
+  
+  

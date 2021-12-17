@@ -2,35 +2,35 @@
 $font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace !default;
 
 // Colors
-$color-primary:   #0072ff !default;
-$color-secondary: #00c6ff !default;
+$color-primary:   rgb(248, 222, 104) !default;
+$color-secondary: rgb(250, 240, 150) !default;
 
-$gray-100:        #f7f9fb !default;
-$gray-200:        #ebecf0 !default;
-$gray-300:        #c5c8d4 !default;
-$gray-400:        #999fb3 !default;
-$gray-500:        #7b839e !default;
-$gray-600:        #4c5267 !default;
-$gray-700:        #2c2f3b !default;
+$gray-100:        #ffffff !default;
+$gray-200:        #fcd34f !default;
+$gray-300:        #ec1616 !default;
+$gray-400:        #131212 !default;
+$gray-500:        #070707 !default;
+$gray-600:        #000000 !default;
+$gray-700:        #000000 !default;
 
-$yellow-pale:     #fcffc4 !default;
+$yellow-pale:     #e0e0de !default;
 
 // Border radius
-$border-radius: 3px;
+$border-radius: 30px;
 
 // Box shadow
-$box-shadow:          0 3px 10px 0 rgba($gray-600,.1) !default;
+$box-shadow:          0 30px 10px 0 rgba($gray-600,.1) !default;
 $box-shadow-white-bg: 0 3px 10px 0 rgba($gray-600,.15) !default;
 $box-shadow-sm:       0 1px 4px 0 rgba($gray-600,.1) !default;
-
+// With of the front page, changes main layout
 // Container max width
-$container:    1140px !default;
+$container:    1400px !default;
 $container-sm: 555px !default;
 $container-md: 750px !default;
 $container-lg: 945px !default;
 
 // Container padding
-$container-padding: 4vw !default;
+$container-padding: 0vw !default;
 
 // Grid gap
 $grid-gap: 1.66667rem !default;

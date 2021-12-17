@@ -4,9 +4,9 @@ sections:
   - section_id: features
     type: section_content
     background: gray
-    image: images/feature1.png
+    image: images/image1.png
     image_alt: App preview on a phone and tablet
-    title: The Best Features of Your Services
+    title: Tech Employment Opportunities for Recent Graduates
     content: >-
       Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit amet
       cursus quis, fringilla nec sapien. Vestibulum imperdiet nunc bibendum
@@ -23,15 +23,15 @@ sections:
       Mollis eget congue quis, venenatis sit amet metus. Etiam sit amet tortor
       sed justo tempor condimentum.
     actions:
-      - label: Free Trial
+      - label: How to Apply
         url: /signup
         style: primary
-      - label: View Demo
+      - label: Resources 
         url: '#'
         style: secondary
   - section_id: call-to-action
     type: section_cta
-    title: This Is Call to Action Block!
+    title: Choose From Dozens of Our Tech Oppourtunites 
     subtitle: This is an optional description for the call to action block.
     actions:
       - label: Get Started
@@ -51,7 +51,7 @@ seo:
       value: This is the features page
       keyName: property
     - name: 'og:image'
-      value: images/feature1.png
+      value: images/image1.png
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -61,7 +61,7 @@ seo:
     - name: 'twitter:description'
       value: This is the features page
     - name: 'twitter:image'
-      value: images/feature1.png
+      value: images/image1.png
       relativeUrl: true
 layout: landing
 ---

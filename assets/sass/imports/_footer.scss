@@ -1,6 +1,6 @@
 #colophon {
-  background: $gray-700;
-  color: $gray-400;
+  background: rgb(250, 250, 249);  //colour of bottom massive banner
+  color: rgb(56, 53, 53); //colour of text of bottom massive banner 
 
   h1,
   h2,
@@ -8,7 +8,7 @@
   h4,
   h5,
   h6 {
-    color: $gray-200;
+    color: rgb(238, 178, 12);
   }
 
   a {
@@ -24,8 +24,8 @@
 
 .footer-top {
   border-bottom: 1px solid rgba($gray-600,.4);
-  padding-bottom: 1.11111em;
-  padding-top: 3.33333em;
+  padding-bottom: 0.61111em;
+  padding-top: 2.933333em;
 }
 
 .footer-bottom {
@@ -33,20 +33,20 @@
   padding-top: 1.66667em;
   text-align: center;
 }
-
+// subscribe, stay up to date, enter in your email BOTTOM RIGHT
 .widget {
-  font-size: 0.88889em;
+  font-size: 0.90em;
   line-height: 1.5;
-  margin-bottom: 2.5em;
+  margin-bottom: 0.5em;
 }
 
 .widget-image {
   display: block;
   margin-bottom: 0.75em;
 }
-
+// This edits the headers at the bottom footer "company, community, subscribe"
 .widget-title {
-  font-size: 1.125em;
+  font-size: 1.1em;
   margin: 0 0 1.2em;
 }
 
@@ -58,10 +58,10 @@
     }
   }
 }
-
+// the spacing between the listed elements in the bootom footer
 .widget-nav {
   .menu-item {
-    margin-bottom: 0.75em;
+    margin-bottom: 0.60em;
   }
 
   .icon {
@@ -77,9 +77,9 @@
     margin: 0 0.75em 0.25em;
   }
 }
-
+// copy right info at bottom of page
 .site-info {
-  font-size: 0.77778em;
+  font-size: 0.677778em;
   line-height: 1.5;
 
   &:not(:first-child) {

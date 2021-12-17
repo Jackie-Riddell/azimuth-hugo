@@ -1,11 +1,12 @@
+// this edits the "sign up" button at bottom of page
 .button {
   -ms-flex-align: center;
   align-items: center;
-  background: $color-primary;
-  border: 2px solid $color-primary;
+  background:#5E78EE ;
+  border: 6px solid rgb(56, 89, 236);
   border-radius: $border-radius;
   box-sizing: border-box;
-  color: #fff;
+  color: rgb(255, 255, 255);
   cursor: pointer;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -26,7 +27,7 @@
   &:hover,
   &:focus,
   &:active {
-    color: #fff;
+    color: rgb(155, 153, 153);
     opacity: 0.8;
     outline: 0;
   }
